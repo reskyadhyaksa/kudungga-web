@@ -3,8 +3,8 @@ import HeroSection from "./components/sections/hero";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <img src="/tesback.jpg" className="absolute inset-0 w-full h-full object-cover -z-10"/>
+    <div className="flex min-h-screen">
+      <Image src="/tesback.jpg" alt="" fill className="absolute inset-0 w-full h-full object-cover -z-10"/>
       <HeroSection/>
     </div>
   );

@@ -4,6 +4,7 @@
   --breakpoint-3xl: 120rem;
   --animate-slide-down: slide-down 0.9s cubic-bezier(0.4, 0, 0.2, 1) both;
   --animate-slide-right: slide-right 0.9s cubic-bezier(0.4, 0, 0.2, 1) both;
+  --font-notoSans: var(--font-noto), sans-serif;
 
   @keyframes slide-down {
     from {
